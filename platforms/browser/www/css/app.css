@@ -1,0 +1,26 @@
+.col-40, .col-30 {
+    border-color: orange 3px solid;
+    border-radius: 15%;
+    height: 6.8vh;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-40 {
+    background-color: rgb(120, 159, 167)
+}/*Columna de tipo de juego*/
+.col-30 {
+    background-color: rgb(130, 223, 223);
+} /*Columnas de puntaje*/
+#lbl_Categoria, #lbl_j1, #lbl_j2 {
+    background-color: rgb(98, 128, 129);
+    font-size: 3vh;
+} /*Categoria - jugador1 y jugador 2*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
