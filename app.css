@@ -1,0 +1,52 @@
+
+.col-40, .col-30 {
+    border-radius: 10%;
+    height: 7.7vh;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+#popover_sel {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    color: whitesmoke;
+}
+.col-40 {
+    border: solid 1px rgb(20, 16, 16);
+    background-color: #272727;
+    color: rgb(236, 184, 72);
+}/*Columna de tipo de juego*/
+.col-30 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: solid 1px rgb(43, 28, 28);
+    background-color: rgb(64, 175, 111);
+} /*Columnas de puntaje*/
+#lbl_Categoria, #lbl_j1, #lbl_j2 {
+    border: solid 1px rgb(18, 18, 31);
+    background-color: rgb(31, 29, 29);
+    color: rgb(187, 187, 187);
+    font-size: 3vh;
+} /*Categoria - jugador1 y jugador 2*/
+#lbl_Categoria {
+    color: rgb(236, 184, 72);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
