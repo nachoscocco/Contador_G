@@ -88,11 +88,11 @@ $$(document).on('page:init', '.page[data-name="contador"]', function (e) {
       de puntaje actual del jugador */
       var acum ;
       acum = dad * sac; 
-      console.log("acumulador es  "+ acum);
+     /*  console.log("acumulador es  "+ acum);
       console.log("puntos es  "+ pun);
       console.log("dados es "+ dad);
-     console.log("saco es "+ sac);
-     console.log("se ejecuto la funcion");
+      console.log("saco es "+ sac); */
+       console.log("se ejecuto la funcion");
      return acum;
  }
 
