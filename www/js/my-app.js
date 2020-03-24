@@ -83,7 +83,7 @@ $$(document).on('page:init', '.page[data-name="contador"]', function (e) {
   $$("#lbl_j1").text(nj1);
   $$("#lbl_j2").text(nj2);
  
-  function puntaje ( pun ,sac, dad){
+  function puntaje ( sac, dad){
       /*puntaje es cuando saca de 1 a 6 en dados entonces se hace el calculo y actualiza la cantidad 
       de puntaje actual del jugador */
       var acum ;
@@ -99,53 +99,53 @@ $$(document).on('page:init', '.page[data-name="contador"]', function (e) {
 
     $$("#j1_1").on('click', function(){
         //3 es un parametro general hasta q haga el popover
-        totalj1 += puntaje (totalj1 , 3 , 1);
+        totalj1 += puntaje ( 3 , 1);
         console.log ("puntaje j1 despues de la funcion "+ totalj1);
         
     });
     $$("#j1_2").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-         totalj1 += puntaje (totalj1,3,2);
+         totalj1 += puntaje (3,2);
     });
     $$("#j1_3").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj1 +=  puntaje (totalj1,3,3);
+      totalj1 +=  puntaje (3,3);
     });
     $$("#j1_4").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj1 +=puntaje (totalj1,3,4);
+      totalj1 +=puntaje (3,4);
     });
     $$("#j1_5").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj1 += puntaje (totalj1,3,5);
+      totalj1 += puntaje (3,5);
     });
     $$("#j1_6").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj1 += puntaje (totalj1,3,6);
+      totalj1 += puntaje (3,6);
     });
     $$("#j2_1").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,1);
+      totalj2 += puntaje (3,1);
     });
     $$("#j2_2").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,2);
+      totalj2 += puntaje (3,2);
     });
     $$("#j2_3").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,3);
+      totalj2 += puntaje (3,3);
     });
     $$("#j2_4").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,4);
+      totalj2 += puntaje (3,4);
     });
     $$("#j2_5").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,5);
+      totalj2 += puntaje (3,5);
     });
     $$("#j2_6").on('click', function(){
       //3 es un parametro general hasta q haga el popover
-      totalj2 += puntaje (totalj1,3,6);
+      totalj2 += puntaje (3,6);
     });
 
      console.log("puntaje j1"+ totalj1);
